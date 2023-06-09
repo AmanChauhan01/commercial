@@ -1,0 +1,86 @@
+*{margin: 0px; box-sizing: border-box;}
+.container{margin: auto; max-width: 1200px;}
+
+.wrap1{text-align: center;  font-weight: 700; font-size: 16px;}
+.wrap1.marquee{
+  width: 100%;
+  /* line-height: 34px; */
+  background-color: #f3cccc;
+  color: #b05d5d;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+.wrap1.marquee p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 25s linear infinite;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+/* wrap2 */
+.wrap2{}
+.wrap2 .row .col-md-2 a{text-decoration: none; color: black; font-weight: 900; font-size: 40px; font-family: cursive;}
+.wrap2 .row .col-md-6{position: relative; margin-top: 14px;}
+.wrap2 .row .col-md-6 input{width: 90%;padding: 5px; outline: none; border: 1px solid #b05d5d; font-weight: 600;}
+.wrap2 .row .col-md-6 button{position: absolute; right: 80px; border: none; background: white; margin-top: 5px;}
+
+.wrap2 .row .col-md-4 .box a{color: black; text-decoration: none;}
+.wrap2 .row .col-md-4 .box a:hover{color: #b05d5d;}
+.wrap2 .row .col-md-4 .box .col{background-color: #f89a9a; color: white; padding: 3px 8px 3px 8px; border-radius: 50%;}
+.wrap2 .row .col-md-4 .box{display: flex; margin-top: 20px;}
+.wrap2 .row .col-md-4 .box div{margin-left: 10px;}
+
+/* wrap3 */
+.wrap3{background-color: rgb(31, 21, 21); margin-top: 10px;}
+
+/* .wrap3 .col-md-2{margin-top: 20px;} */
+.wrap3 .col-md-2 .shop{margin-top: 20px;}
+.wrap3 .col-md-2 a{color: white; text-decoration: none;}
+
+.wrap3 .col-md-7{}
+.wrap3 .col-md-7 ul{padding: 0px; display: flex; margin-left: 30px;}
+.wrap3 .col-md-7 ul li{list-style-type: none; margin: 1px ;margin-top: 20px;}
+.wrap3 .col-md-7 ul li a{color: white; text-decoration: none; margin: 1px ;margin-top: 10px; padding: 5px 10px 18px 5px; }
+.wrap3 .col-md-7 ul li .drop{position: absolute;background-color: white;width: 90%; top: 176px; overflow: hidden; padding: 30px 30px 10px 30px; left: 60px; display: none; z-index: 10000000000000000000000000000000000000000000;}
+.wrap3 .col-md-7 ul li .look{left: 480px; width: 15%;}
+.wrap3 .col-md-7 ul li .buy{left: 700px; width: 20%;}
+/* .wrap3 .col-md-7 ul li:hover .look{display: block;}  */
+.wrap3 .col-md-7 ul li:hover .drop{display: block;} 
+.wrap3 .col-md-7 ul li .drop h2{font-size: 18px;}
+.wrap3 .col-md-7 ul li .drop ol{padding: 0px;}
+.wrap3 .col-md-7 ul li .drop ol li a{color: rgb(105, 104, 104);}
+.wrap3 .col-md-7 ul li .drop ol li a:hover{color: black;}
+.wrap3 .col-md-7 ul li .drop .col-md-4 img{width: 100%; height: 300px;}
+.wrap3 .col-md-7 ul li .drop .col-md-4 .p1{color: black; border: 1px solid rgb(224, 212, 212); margin-top: 10px; padding: 5px; text-align: center;}
+.wrap3 .col-md-7 ul li .drop ol li i{font-size: 12px; background-color: red; color: white; padding: 1px 10px 1px 10px; font-weight: 600;}
+.wrap3 .col-md-7 ul li .drop ol li span{color: red; font-weight: 900;}
+
+.wrap3 .col-md-7 ul li .drop ol li.green i{background-color: green;}
+.wrap3 .col-md-7 ul li .drop ol li.green span{color: green;}
+
+.wrap3 .col-md-7 ul li .drop .col-md-3 img{width: 100%; height: 250px;}
+
+
+.wrap3 .col-md-3 ul{display: flex;}
+.wrap3 .col-md-3 ul li{list-style-type: none; color: white; margin-top: 20px; font-size: 14px; margin-left: 5px; padding-bottom: 10px;}
+.wrap3 .col-md-3 ul li a{color: white; text-decoration: none; padding-right: 5px; border-right: 1px solid grey; font-size: 14px;} 
+.wrap3 .col-md-3 ul li img{width: 15px; height: 15px;}
+
+.wrap3 .col-md-3 ul li .flag{position: absolute; display: none; background-color: #f1e8e8; top: 165px; padding: 0px 5px 5px 5px;}
+.wrap3 .col-md-3 ul li .flag ol{padding: 0px;}
+.wrap3 .col-md-3 ul li .flag ol li{padding-bottom: 0px;}
+.wrap3 .col-md-3 ul li .flag ol li a{color: black; border-right: none; padding-bottom: 0px;}
+.wrap3 .col-md-3 ul li:hover .flag{display: block;} 
+
+.wrap4{margin-top: 30px;}
+.wrap4 img{height: 400px;}
+.wrap4 .row .col-md-5 .row .col-md-12 img{width: 100%; height: 190px;}
+.wrap4 .row .col-md-5 .row .to{margin-top: 20px;}
